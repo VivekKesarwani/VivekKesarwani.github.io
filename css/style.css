@@ -1,0 +1,168 @@
+/*CSS Reset Begins*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS Reset Ends*/
+
+/*Custom CSS Begins*/
+
+body {
+	font-family: 'Bad Script', cursive;
+}
+
+.name {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 400;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrap:hover {
+    background-color: #000;
+    color: blue;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bio {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+    margin-top: 20px;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrap:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.photo {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.photo img {
+	width: 400px;
+	border-radius: 20%;
+	border:10px solid #fff;
+}
+
+#content {
+    background-color: rgba(00,00,255,0.5);
+    border-radius: 20%;
+    border-top-left-radius: 10px;
+    width: 75%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#content:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.linkedin, .google, .facebook {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 10% 20px 10%;
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
+    color: white;
+}
+
+.linkedin {
+    background-color: blue;
+    border-bottom-left-radius: 20px;
+}
+
+.google {
+    background-color: red;
+    border-top-left-radius: 20px;
+}
+
+.facebook {
+    background-color: #316ede;
+    border-top-right-radius: 20px;
+}
+
+
+.onyxmotion {
+    background-color: green;
+    border-bottom-right-radius: 20px;
+}
+
+.linkedin:hover, .google:hover, .facebook:hover, .onyxmotion:hover {
+    opacity: 0.5;
+}
+
+.linkedin a, .google a, .facebook a, .onyxmotion a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .linkedin, .google, .facebook {
+        width: 80%;
+    }
+}
+
+/*Custom CSS Ends

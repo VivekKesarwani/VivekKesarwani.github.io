@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Vivek</title>
+<meta name="viewport" id="view" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="icon" type="image/png" href="img/favicon.png">
+<!-- Google Fonts Link --><link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>1<!-- Link to CSS stylesheet --><link href="css/style.css" rel="stylesheet" type="text/css"/>
+<style>
+html { 
+  background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+  </style>
+<script type="text/javascript">
+		<!--
+		function getWindowHeight() {
+			var windowHeight = 0;
+			if (typeof(window.innerHeight) == 'number') {
+				windowHeight = window.innerHeight;
+			}
+			else {
+				if (document.documentElement && document.documentElement.clientHeight) {
+					windowHeight = document.documentElement.clientHeight;
+				}
+				else {
+					if (document.body && document.body.clientHeight) {
+						windowHeight = document.body.clientHeight;
+					}
+				}
+			}
+			return windowHeight;
+		}
+		function setContent() {
+			if (document.getElementById) {
+				var windowHeight = getWindowHeight();
+				if (windowHeight > 0) {
+					var contentElement = document.getElementById('content');
+					var contentHeight = contentElement.offsetHeight;
+					if (windowHeight - contentHeight > 0) {
+						contentElement.style.position = 'relative';
+						contentElement.style.top = ((windowHeight / 2) - (contentHeight / 2)) + 'px';
+					}
+					else {
+						contentElement.style.position = 'static';
+					}
+				}
+			}
+		}
+		window.onload = function() {
+			setContent();
+		}
+		window.onresize = function() {
+			setContent();
+		}
+		//-->
+		</script>
+
+
+	</head>
+
+
+	<!-- Body Begins -->
+<body>
+
+
+<div id="content">
+
+	<div class="photo"><img src="img/vivek.png" /></div>
+    <div class="wrap">
+	<div class="name">Vivek Kesarwani</div>
+	<div class="bio">Vivek Kesarwani is an Engineering Science graduate at the University of Toronto</div>
+    </div>
+
+<div class="google"><a href="https://plus.google.com/+VivekKesarwani/posts">Connect with me on Google Plus</div></a>
+<a href="https://www.facebook.com/vivekkesarwani91"><div class="facebook">Connect with me on Facebook</div></a>
+<a href="http://ca.linkedin.com/pub/vivek-kesarwani/92/957/529" target="_blank"><div class="linkedin">Connect with me on LinkedIn</div></a>
+<a href="http://onyxmotion.com" target="_blank"><div class="onyxmotion">See my company</div></a>
+</div>
+
+
+
+</body>
+<!-- Body Ends -->
+</html>
